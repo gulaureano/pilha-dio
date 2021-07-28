@@ -1,0 +1,39 @@
+
+public class Pilha {
+	
+	No contagemReferencia = null;
+
+	public No getContagemReferencia() {
+		return contagemReferencia;
+	}
+
+	public void setContagemReferencia(No contagemReferencia) {
+		this.contagemReferencia = contagemReferencia;
+	}
+
+	public Pilha(No contagemReferencia) {
+		this.contagemReferencia = contagemReferencia;
+	}
+	
+	public boolean isEmpty() {
+		return this.contagemReferencia != null ? true : false;
+	}
+	
+	public No top() {
+		return contagemReferencia.getNoReferencia();
+	}
+	
+	public void push(No proximoNo) {
+		No noAuxiliar = contagemReferencia;
+		contagemReferencia = proximoNo;
+		contagemReferencia.setNoReferencia(noAuxiliar);
+	}
+	
+	public No pop() {
+		if (!isEmpty()) {
+			return contagemReferencia = contagemReferencia.getNoReferencia();
+		}
+		return null; 
+	}
+	
+}

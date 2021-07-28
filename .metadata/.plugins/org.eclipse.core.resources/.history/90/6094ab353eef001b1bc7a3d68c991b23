@@ -1,0 +1,21 @@
+
+public class Pilha {
+	
+	private No numRefEntradaPilha;
+
+	
+	
+	public Pilha() {
+		this.numRefEntradaPilha = null;
+	}
+	
+	
+	
+	
+	
+	public No top() {
+		return this.numRefEntradaPilha;
+	}
+	
+	
+}
