@@ -1,3 +1,2 @@
 INDEX VERSION 1.131+C:\GustavoProjetc\DIO\Estrutra de Dados em Java\pilha\.metadata\.plugins\org.eclipse.jdt.core
-1659870280.index
 1497378174.index

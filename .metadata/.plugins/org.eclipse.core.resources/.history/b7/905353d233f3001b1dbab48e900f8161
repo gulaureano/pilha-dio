@@ -34,7 +34,7 @@ public class Pilha {
 		No noDeReferencia = contagemReferencia;
 		
 		while(true) {
-			if (noDeReferencia != null) {
+			if (noDeReferencia.getNoReferencia() != null) {
 				retornoString += "número{";
 				retornoString += noDeReferencia.getConteudo() + "}\n";
 				noDeReferencia = noDeReferencia.getNoReferencia();
